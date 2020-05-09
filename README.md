@@ -49,15 +49,17 @@ $res = !$res; // теперь исрина
 ```
 
 Альтернативный синтаксис  
+```  
 <?php if (): ?>
 <p>text1</p> 
 <?php elseif (): ?>
 <p>text2</p> 
 <?php else: ?>
 <p>text3</p> 
-<?php endif; ?>
+<?php endif; ?>  
+```
 
 Шорт теги:
-Старый: <?php print($var); ?>
-Shot teg: <?=$var; ?>  
+Старый: ```<?php print($var); ?>```  
+Shot teg: ```<?=$var; ?>```  
 точку в конце ставить не обязательно, но желательно
