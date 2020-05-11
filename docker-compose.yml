@@ -17,7 +17,7 @@ services:
       - frontend
       - backend
     ports:
-      - "80:80"
+      - "8077:80"
     volumes:
       - ./public_html/:/var/www/html/
 
@@ -39,7 +39,7 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
     ports:
-        - "81:80"
+        - "8011:80"
     environment:
         - PMA_ARBITRARY=1
         - PMA_HOST=${MYSQL_HOST}
